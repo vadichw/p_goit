@@ -38,7 +38,7 @@ def parse_data():
 
 if __name__ == '__main__':
     store = parse_data()
-    engine = create_engine("sqlite:///:memory:")
+    engine = create_engine("sqlite:///data_parse.sqlite")
     Base.metadata.create_all(engine)
     Base.metadata.bind = engine
     Session = sessionmaker(bind=engine)
