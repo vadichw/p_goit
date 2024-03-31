@@ -1,0 +1,8 @@
+setup.py
+hello_world_vv/__init__.py
+hello_world_vv/main.py
+hello_world_vv.egg-info/PKG-INFO
+hello_world_vv.egg-info/SOURCES.txt
+hello_world_vv.egg-info/dependency_links.txt
+hello_world_vv.egg-info/entry_points.txt
+hello_world_vv.egg-info/top_level.txt
