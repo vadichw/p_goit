@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3d16396-17cf-4f79-9211-16bfc3c564e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/h_w_2_web/.idea/h_w_2_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_2/task_2.2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_2/task_2.3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/entry_point/final.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/entry_point/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/task_3_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_3/theory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/dict/dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/lists/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/notes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/path/path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/smd/echo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/smd/final.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/smd/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/smd/smd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_4_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_4/task_password.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/find_m/find_m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/format_m/format_m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/lecture_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/notes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/regularka.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/split_m/split_m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_15.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/task_5_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_5/translate_m/traslate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/ex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/folder/file.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/folder/file.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/folder/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/folder/new_text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/chern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/folder/archives/NENORM.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/folder/archives/Norm.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/folder/documents/file.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/folder/documents/new_text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/folder/file.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/folder/images/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/homework.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/homework/normalize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/lecture_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/lecture_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/lecture_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/notes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/task_6_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul_6/test.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2aomB2iPHtC0brho0Y0Wc4Cq8yI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/repos/projects_go_it/python_web"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3d16396-17cf-4f79-9211-16bfc3c564e7" name="Changes" comment="" />
+      <created>1704993166799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704993166799</updated>
+    </task>
+    <servers />
+  </component>
+</project>
