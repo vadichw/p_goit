@@ -15,12 +15,13 @@ def parse_data():
         'Five': 5
     }
     url = 'http://books.toscrape.com/'
-    store_ = []
+    store_ = [] # Змінну store_, де зберігатимемо отримані дані.
     html_doc = requests.get(url)
 
     if html_doc.status_code == 200:
-        soup = BeautifulSoup(html_doc.content, 'html.parser')
-        books = soup.select('section')[0].find_all('article', attrs={'class': 'product_pod'})
+        soup = BeautifulSoup(html_doc.content, 'html.parser') # Виконуємо парсинг даних з HTML коду.
+        books = soup.select('section')[0].find_all('article', attrs={'class': 'product_pod'}) # Знаходимо всі книги наступним запитом.
+
         for book in books:
             img_url = f"{url}{book.find('img')['src']}"
             rating = rate_to_number.get(book.find('p', attrs={'class': 'star-rating'})['class'][1])
