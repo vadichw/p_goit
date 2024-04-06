@@ -1,24 +1,21 @@
-from pymongo import MongoClient
-import json
+import pymongo
+from main import quotes, authors
 
-# З'єднання з базою даних MongoDB (встановіть ваші власні дані)
-client = MongoClient('mongodb+srv://vadich_w:I3wv0Kc9vuy0T96p@cluster0.n7wujvu.mongodb.net/?retryWrites=true&w'
-                     '=majority&appName=Cluster0')
+# Підключення до MongoDB
+client = pymongo.MongoClient("mongodb+srv://vadich_w:I3wv0Kc9vuy0T96p@cluster0.n7wujvu.mongodb.net/?retryWrites=true"
+                             "&w=majority&appName=Cluster0")
+db = client["hw9"]
+quotes_collection = db["quotes"]
+authors_collection = db["authors"]
 
-# Вибір або створення колекції для цитат та авторів
-db = client['mydatabase']
-quotes_collection = db['quotes']
-authors_collection = db['authors']
+# Збереження цитат у колекцію
+for quote in quotes:
+    quotes_collection.insert_one(quote)
 
-# Завантаження даних з файлів у базу даних
-with open('quotes.json') as f:
-    quotes_data = json.load(f)
-quotes_collection.insert_many(quotes_data)
+# Збереження авторів у колекцію
 
-with open('authors.json') as f:
-    authors_data = json.load(f)
-authors_collection.insert_many(authors_data)
+for author_name in authors:
+    author_doc = {"name": author_name}  # Створюємо словник з іменем автора
+    authors_collection.insert_one(author_doc)
 
-# Перевірка, що дані були успішно завантажені
-print(quotes_collection.count_documents({}))  # Повинно вивести кількість цитат
-print(authors_collection.count_documents({}))  # Повинно вивести кількість авторів
+print("Дані збережено у базу даних MongoDB.")

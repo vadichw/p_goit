@@ -1,152 +1,52 @@
 [
-  {
-    "author": "George Eliot"
-  },
-  {
-    "author": "Marilyn Monroe"
-  },
-  {
-    "author": "Haruki Murakami"
-  },
-  {
-    "author": "Madeleine L'Engle"
-  },
-  {
-    "author": "Jimi Hendrix"
-  },
-  {
-    "author": "E.E. Cummings"
-  },
-  {
-    "author": "George R.R. Martin"
-  },
-  {
-    "author": "Albert Einstein"
-  },
-  {
-    "author": "George Carlin"
-  },
-  {
-    "author": "Mark Twain"
-  },
-  {
-    "author": "Steve Martin"
-  },
-  {
-    "author": "Friedrich Nietzsche"
-  },
-  {
-    "author": "Mother Teresa"
-  },
-  {
-    "author": "Douglas Adams"
-  },
-  {
-    "author": "Jane Austen"
-  },
-  {
-    "author": "Charles Bukowski"
-  },
-  {
-    "author": "Thomas A. Edison"
-  },
-  {
-    "author": "William Nicholson"
-  },
-  {
-    "author": "Charles M. Schulz"
-  },
-  {
-    "author": "Martin Luther King Jr."
-  },
-  {
-    "author": "Pablo Neruda"
-  },
-  {
-    "author": "C.S. Lewis"
-  },
-  {
-    "author": "Eleanor Roosevelt"
-  },
-  {
-    "author": "Harper Lee"
-  },
-  {
-    "author": "Ernest Hemingway"
-  },
-  {
-    "author": "Allen Saunders"
-  },
-  {
-    "author": "Garrison Keillor"
-  },
-  {
-    "author": "Helen Keller"
-  },
-  {
-    "author": "J.M. Barrie"
-  },
-  {
-    "author": "J.K. Rowling"
-  },
-  {
-    "author": "Dr. Seuss"
-  },
-  {
-    "author": "James Baldwin"
-  },
-  {
-    "author": "Khaled Hosseini"
-  },
-  {
-    "author": "J.R.R. Tolkien"
-  },
-  {
-    "author": "Terry Pratchett"
-  },
-  {
-    "author": "Ralph Waldo Emerson"
-  },
-  {
-    "author": "Stephenie Meyer"
-  },
-  {
-    "author": "Alexandre Dumas fils"
-  },
-  {
-    "author": "Elie Wiesel"
-  },
-  {
-    "author": "Jorge Luis Borges"
-  },
-  {
-    "author": "Alfred Tennyson"
-  },
-  {
-    "author": "Jim Henson"
-  },
-  {
-    "author": "Suzanne Collins"
-  },
-  {
-    "author": "Andr\u00e9 Gide"
-  },
-  {
-    "author": "J.D. Salinger"
-  },
-  {
-    "author": "Bob Marley"
-  },
-  {
-    "author": "John Lennon"
-  },
-  {
-    "author": "George Bernard Shaw"
-  },
-  {
-    "author": "W.C. Fields"
-  },
-  {
-    "author": "Ayn Rand"
-  }
+  "James Baldwin",
+  "Elie Wiesel",
+  "Charles Bukowski",
+  "Garrison Keillor",
+  "Jane Austen",
+  "William Nicholson",
+  "Suzanne Collins",
+  "Jim Henson",
+  "Ernest Hemingway",
+  "George R.R. Martin",
+  "Jorge Luis Borges",
+  "John Lennon",
+  "J.K. Rowling",
+  "Madeleine L'Engle",
+  "C.S. Lewis",
+  "Mark Twain",
+  "George Carlin",
+  "Martin Luther King Jr.",
+  "Harper Lee",
+  "Charles M. Schulz",
+  "Eleanor Roosevelt",
+  "Dr. Seuss",
+  "Khaled Hosseini",
+  "Douglas Adams",
+  "Ralph Waldo Emerson",
+  "Allen Saunders",
+  "Friedrich Nietzsche",
+  "J.D. Salinger",
+  "Alfred Tennyson",
+  "W.C. Fields",
+  "George Bernard Shaw",
+  "André Gide",
+  "Terry Pratchett",
+  "George Eliot",
+  "Alexandre Dumas fils",
+  "E.E. Cummings",
+  "Haruki Murakami",
+  "Pablo Neruda",
+  "Ayn Rand",
+  "Albert Einstein",
+  "J.M. Barrie",
+  "Mother Teresa",
+  "Bob Marley",
+  "Helen Keller",
+  "J.R.R. Tolkien",
+  "Jimi Hendrix",
+  "Stephenie Meyer",
+  "Marilyn Monroe",
+  "Steve Martin",
+  "Thomas A. Edison"
 ]

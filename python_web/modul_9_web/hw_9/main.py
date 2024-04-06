@@ -1,52 +1,36 @@
 import requests
-import json
 from bs4 import BeautifulSoup
+import json
 
 
-# Функція для отримання даних зі сторінки
-def scrape_page(url):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    return soup
-
-
-# Функція для отримання цитат зі сторінки
-def get_quotes(page_soup):
+# Функція для отримання даних про цитати
+def scrape_quotes(url):
     quotes = []
-    for quote in page_soup.select('.quote'):
-        text = quote.select_one('.text').get_text()
-        author = quote.select_one('.author').get_text()
-        tags = [tag.get_text() for tag in quote.select('.tag')]
-        quotes.append({'text': text, 'author': author, 'tags': tags})
-    return quotes
+    authors = set()
+    while url:
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        for quote in soup.select('div.quote'):
+            text = quote.select_one('span.text').get_text()
+            author = quote.select_one('small.author').get_text()
+            authors.add(author)
+            tags = [tag.get_text() for tag in quote.select('a.tag')]
+            quotes.append({'text': text, 'author': author, 'tags': tags})
+        next_page = soup.select_one('li.next > a')
+        url = next_page['href'] if next_page else None
+        if url and not url.startswith('http'):
+            url = f'http://quotes.toscrape.com{url}'  # Повний URL для наступної сторінки
+    return quotes, list(authors)
 
 
-# Функція для отримання URL наступної сторінки
-def get_next_page_url(page_soup):
-    next_page_link = page_soup.select_one('.next > a')
-    if next_page_link:
-        return base_url + next_page_link['href']  # Зміна тут
-    else:
-        return None
-
-# Спочатку визначимо базовий URL та список для зберігання цитат
-base_url = 'http://quotes.toscrape.com'
-all_quotes = []
-
-# Скрапінг та збереження даних усіх сторінок
-current_page_url = base_url
-while current_page_url:
-    page_soup = scrape_page(current_page_url)
-    all_quotes.extend(get_quotes(page_soup))
-    current_page_url = get_next_page_url(page_soup)
+# Функція для збереження даних у JSON-файл
+def save_to_json(data, filename):
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-# Зберігання цитат у файл quotes.json
-with open('quotes.json', 'w') as f:
-    json.dump(all_quotes, f, indent=2)
-
-# Збереження авторів у файл authors.json
-authors = list(set(quote['author'] for quote in all_quotes))
-authors_data = [{'author': author} for author in authors]
-with open('authors.json', 'w') as f:
-    json.dump(authors_data, f, indent=2)
+# Отримання цитат та авторів
+quotes, authors = scrape_quotes("http://quotes.toscrape.com/")
+# Збереження цитат та авторів у JSON-файли
+save_to_json(quotes, 'quotes.json')
+save_to_json(authors, 'authors.json')
