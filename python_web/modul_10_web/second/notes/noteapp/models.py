@@ -9,6 +9,7 @@ class Tag(models.Model):
 
 
 class Note(models.Model):
+    objects = None
     name = models.CharField(max_length=50, null=False)
     description = models.CharField(max_length=150, null=False)
     done = models.BooleanField(default=False)
