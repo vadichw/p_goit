@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw10mynotes"
+version = "0.1.0"
+description = "home work"
+authors = ["vadichw <vadik56780098@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+pymongo = "^4.8.0"
+bson = "^0.5.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
